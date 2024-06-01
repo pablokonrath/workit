@@ -380,7 +380,7 @@ h3 {
 }
 
 .header {
-  background: url("/assets/images/bg-primario.png"), no-repeat;
+  background: url("./assets/images/bg-primario.png"), no-repeat;
   text-align: center;
   position: relative;
   padding: 50px 20px 317px 20px;
@@ -400,7 +400,7 @@ h3 {
   transform: translateX(-50%);
 }
 .header::before {
-  background: url("/assets/images/bg-pattern-1.svg") center;
+  background: url("./assets/images/bg-pattern-1.svg") center;
   display: block;
   content: "";
   width: 341px;
@@ -410,7 +410,7 @@ h3 {
   left: -115px;
 }
 .header::after {
-  background: url("/assets/images/bg-pattern-2.svg") center no-repeat;
+  background: url("./assets/images/bg-pattern-2.svg") center no-repeat;
   display: block;
   content: "";
   position: absolute;
