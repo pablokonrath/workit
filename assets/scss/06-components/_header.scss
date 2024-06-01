@@ -5,7 +5,7 @@
 }
 
 .header {
-  background: url('../assets/images/bg-primario.png'), no-repeat;
+  background-image: url('../assets/images/bg-primario.png'), no-repeat;
   text-align: center;
   position: relative;
   padding: 50px 20px 317px 20px;
@@ -24,7 +24,7 @@
     transform: translateX(-50%);
   }
   &::before {
-    background: url('../assets/images/bg-pattern-1.svg') center;
+    background-image: url('../assets/images/bg-pattern-1.svg') center;
     display: block;
     content: '';
     width: 341px;
@@ -34,7 +34,7 @@
     left: -115px;
   }
   &::after {
-    background: url('../assets/images/bg-pattern-2.svg') center no-repeat;
+    background-image: url('../assets/images/bg-pattern-2.svg') center no-repeat;
     display: block;
     content: '';
     position: absolute;
