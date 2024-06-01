@@ -1,0 +1,50 @@
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.header{
+  background: url("/assets/images/bg-primario.png"), no-repeat ;
+  text-align: center;
+  position: relative;
+  padding: 50px 20px 317px 20px;
+  &__top{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__img{
+    max-width: 767px;
+    padding-top: 50px;
+    position: absolute;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+
+  }
+  &::before{
+    background: url("/assets/images/bg-pattern-1.svg") center;
+    display: block;
+    content: "";
+    width: 341px;
+    height: 317px;
+    position: absolute;
+    top: 116px;
+    left: -115px;
+  }
+  &::after{
+    background: url("/assets/images/bg-pattern-2.svg") center no-repeat;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 235px;
+    width: 174px;
+    height: 181px;
+    right: -50px;
+  }
+}
+.header  h1 {
+  padding-bottom: 30px;
+}

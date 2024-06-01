@@ -1,0 +1,17 @@
+body{
+  font-family: 'Manrope';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+h1{
+  @include titulo(l)
+}
+h2 {
+  @include titulo(m)
+}
+
+h3 {
+  @include titulo(s)
+}
