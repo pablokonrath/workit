@@ -380,7 +380,8 @@ h3 {
 }
 
 .header {
-  background-image: url("../images/bg-primario.png"), no-repeat;
+  background-image: url("../images/bg-primario.png");
+  background-repeat: no-repeat;
   text-align: center;
   position: relative;
   padding: 50px 20px 317px 20px;
@@ -400,7 +401,8 @@ h3 {
   transform: translateX(-50%);
 }
 .header::before {
-  background-image: url("../images/bg-pattern-1.svg") center;
+  background-image: url("../images/bg-pattern-1.svg");
+  background-position: center;
   display: block;
   content: "";
   width: 341px;
@@ -410,7 +412,9 @@ h3 {
   left: -115px;
 }
 .header::after {
-  background-image: url("../images/bg-pattern-2.svg") center no-repeat;
+  background-image: url("../images/bg-pattern-2.svg");
+  background-repeat: no-repeat;
+  background-position: center;
   display: block;
   content: "";
   position: absolute;
