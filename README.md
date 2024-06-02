@@ -45,7 +45,7 @@ Os usuários devem ser capazes de:
 
 ## O que eu aprendi
 
-Ao trabalhar neste projeto, consegui aprimorar minhas habilidades em manipulação de posições usando `absolute` e `relative`. Esse projeto foi meu primeiro desafio prático, o que me permitiu reforçar meus conhecimentos nas tecnologias utilizadas, como HTML, CSS e React.
+Ao trabalhar neste projeto, consegui aprimorar minhas habilidades em manipulação de posições usando `absolute` e `relative`. Esse projeto foi meu primeiro desafio prático, o que me permitiu reforçar meus conhecimentos nas tecnologias utilizadas, como HTML, CSS.
 
 ### Posicionamento absoluto e relativo
 
@@ -76,4 +76,4 @@ No entanto, ainda encontrei desafios significativos ao lidar com o posicionament
 }
 ```
 
-Esse projeto me ensinou a importância da prática contínua e do aprendizado iterativo, e estou ansioso para aplicar esses conhecimentos em projetos futuros e continuar aprimorando minhas habilidades.
+Esse projeto me ensinou a importância da prática contínua, e estou ansioso para aplicar esses conhecimentos em projetos futuros e continuar aprimorando minhas habilidades base.
