@@ -2,13 +2,13 @@
   display: inline-block;
   padding: 12px 25px;
   font-weight: bold;
-  border: solid 2px $cor-destaque;
+  border: solid 3px $cor-destaque;
   color: $cor-primaria;
   background-color: $cor-destaque;
   text-decoration: none;
   cursor: pointer;
-  &:hover{
-    border: solid 2px $cor-destaque;
+  &:hover {
+    border: solid 3px $cor-destaque;
     color: $cor-destaque;
     background-color: transparent;
   }
@@ -17,12 +17,12 @@
 .o-btn-secundario {
   display: inline-block;
   font-weight: bold;
-  border-bottom: solid 2px $cor-destaque;
+  border-bottom: solid 3px $cor-destaque;
   color: $cor-secundaria;
   text-decoration: none;
   cursor: pointer;
-  &:hover{
-    border-bottom: solid 2px $cor-destaque;
+  &:hover {
+    border-bottom: solid 3px $cor-destaque;
     color: $cor-destaque;
   }
 }

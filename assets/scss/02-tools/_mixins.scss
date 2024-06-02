@@ -1,17 +1,17 @@
 //para utilizar os mixin é só colocar o @include  nomedomixin e o parametro se tiver
 
 //mixin para os  titulos que tem no projeto
-@mixin titulo($tamanho){
+@mixin titulo($tamanho) {
   font-family: 'Fraunces 144';
   font-weight: 600;
   color: $cor-secundaria;
-  @if $tamanho == l{ 
+  @if $tamanho == l {
     font-size: 80px;
     line-height: 80px;
-  }@else if $tamanho == m {
+  } @else if $tamanho == m {
     font-size: 56px;
     line-height: 64px;
-  }@else if $tamanho == s {
+  } @else if $tamanho == s {
     font-size: 32px;
     line-height: 40px;
     color: $cor-primaria;
@@ -19,13 +19,12 @@
 }
 
 //mixin que controla o responsivo
-@mixin d($dispositivo){
-  @if $dispositivo == c{
-    @media (max-width: 375px){
+@mixin d($dispositivo) {
+  @if $dispositivo == c {
+    @media (max-width: 375px) {
       @content;
     }
-  }
-  @else if $dispositivo == t {
+  } @else if $dispositivo == t {
     @media (max-width: 768px) {
       @content;
     }

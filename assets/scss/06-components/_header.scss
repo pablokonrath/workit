@@ -10,6 +10,13 @@
   text-align: center;
   position: relative;
   padding: 50px 20px 317px 20px;
+  @include d(t) {
+    padding: 50px 20px 200px 20px;
+  }
+  @include d(c) {
+    padding: 50px 10px 150px 10px;
+  }
+
   &__top {
     max-width: 1200px;
     margin: 0 auto;
@@ -23,6 +30,12 @@
     display: block;
     left: 50%;
     transform: translateX(-50%);
+    @include d(t) {
+      max-width: 514px;
+    }
+    @include d(c) {
+      max-width: 320px;
+    }
   }
   &::before {
     background-image: url('../images/bg-pattern-1.svg');
@@ -34,6 +47,12 @@
     position: absolute;
     top: 116px;
     left: -115px;
+    @include d(t) {
+      left: -220px;
+    }
+    @include d(c) {
+      display: none;
+    }
   }
   &::after {
     background-image: url('../images/bg-pattern-2.svg');
@@ -46,8 +65,27 @@
     width: 174px;
     height: 181px;
     right: -50px;
+    @include d(t) {
+      right: -100px;
+      bottom: 100px;
+    }
+    @include d(c) {
+      display: none;
+    }
   }
 }
 .header h1 {
-  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  @include d(t) {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  @include d(c) {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
+.u-destaque {
+  border-bottom: solid 3px $cor-destaque;
 }
